@@ -1,0 +1,71 @@
+/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Abel", sans-serif;
+    letter-spacing: 0.5px;
+    color: #B7B7B7;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+}
+
+.sidebar{
+    width: 22vw;
+    height: 100vh;
+    background-color: #151515; 
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.sidebar a{
+    color: #B7B7B7;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.header-bar{
+    margin: 30px;
+    display: flex;
+    font-size: 2rem;
+}
+
+.header-bar img{
+    margin: 13px;
+    height: 50px;
+}
+
+.upper-bar{
+    margin: 25px;
+}
+
+.lower-bar{
+    margin: 25px;
+}
+
+.upper-bar div{
+    display: flex;
+    margin: 20px;
+}
+
+.lower-bar div{
+    display: flex;
+    margin-left: 20px;
+}
+
+.upper-nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
